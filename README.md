@@ -10,3 +10,8 @@ A WordPress Toolbar that can be customized and works without being logged-in or 
 - upload the code from `wptoolbar.js`
 - adjust the URL(s) on which the script should run automatically
 - adjust the links to `wp-toolbar.css` in the code
+
+## Limitations
+
+- the Toolbar is customized to fit our needs, e.g., we use a custom post type for Manual posts or one for Downloads that comes from Easy Digital Downloads
+- it does not work when WP is running in a subdirectory
