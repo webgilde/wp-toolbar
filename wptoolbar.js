@@ -25,7 +25,7 @@ function runthis() {
     if( ! document.querySelector("#wptb") ) {
         // add custom CSS file
 		if ( ! document.querySelector( "#wptb_css") ) {
-            var css_link = "<link id='wptb_css' rel='stylesheet' href='https://wpadvancedads.com/wp-content/wp-toolbar/wp-toolbar.css' type='text/css' />";
+            var css_link = "<link id='wptb_css' rel='stylesheet' href='https://tools.wpadvancedads.com/wp-toolbar/wp-toolbar.css' type='text/css' />";
             document.body.insertAdjacentHTML('beforeend', css_link );
 		}
 
